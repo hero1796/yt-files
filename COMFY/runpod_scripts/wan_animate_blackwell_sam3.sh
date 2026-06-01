@@ -9,6 +9,7 @@ wget -c https://github.com/sonnybox/yt-files/raw/refs/heads/main/COMFY/runpod_sc
 chmod +x download_wan_animate_models.sh
 
 git clone https://github.com/Comfy-Org/ComfyUI
+
 nohup ./download_wan_animate_models.sh > /root/model_download.log 2>&1 &
 
 cd ComfyUI/custom_nodes
