@@ -4,6 +4,11 @@ echo 'cd /root' >> /etc/bash.bashrc
 echo 'source /root/ComfyUI/venv/bin/activate' >> /etc/bash.bashrc
 
 cd /root
+
+wget -c https://github.com/sonnybox/yt-files/raw/refs/heads/main/COMFY/runpod_scripts/download_wan_animate_models.sh
+chmod +x download_wan_animate_models.sh
+nohup ./download_wan_animate_models.sh > /root/model_download.log 2>&1 &
+
 git clone https://github.com/Comfy-Org/ComfyUI
 cd ComfyUI/custom_nodes
 
@@ -87,12 +92,6 @@ mkdir -p /root/ComfyUI/models/detection
 wget -c https://raw.githubusercontent.com/sonnybox/yt-files/refs/heads/main/COMFY/workflows/Wan%20Animate%20-%20Character%20Swap%20-%20RunPod%20-%20RTX%20Pro%206000.json -O "/root/ComfyUI/user/default/workflows/Character Swap.json"
 wget -c https://raw.githubusercontent.com/sonnybox/yt-files/refs/heads/main/COMFY/workflows/Wan%20Animate%20-%20Head%20Swap%20-%20RunPod%20-%20RTX%20Pro%206000.json -O "/root/ComfyUI/user/default/workflows/Head Swap.json"
 
-cd /root
-wget -c https://github.com/sonnybox/yt-files/raw/refs/heads/main/COMFY/runpod_scripts/download_wan_animate_models.sh
-chmod +x download_wan_animate_models.sh
-nohup ./download_wan_animate_models.sh > /root/model_download.log 2>&1 &
-
-cd /root/ComfyUI
 python main.py \
 	--listen \
 	--preview-method auto \
