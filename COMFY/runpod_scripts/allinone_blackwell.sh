@@ -114,7 +114,6 @@ git clone https://github.com/crystian/comfyui-crystools
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts
 git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
 git clone https://github.com/cubiq/ComfyUI_essentials
-git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack
 git clone https://github.com/PGCRT/CRT-Nodes
 git clone https://github.com/wallish77/wlsh_nodes
 git clone https://github.com/scraed/LanPaint
@@ -144,7 +143,6 @@ uv pip install -r custom_nodes/ComfyUI-Impact-Subpack/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-Easy-Use/requirements.txt
 uv pip install -r custom_nodes/was-node-suite-comfyui/requirements.txt
 uv pip install -r custom_nodes/comfyui-crystools/requirements.txt
-uv pip install -r custom_nodes/comfyui-impact-pack/requirements.txt
 uv pip install -r custom_nodes/CRT-Nodes/requirements.txt
 
 uv pip install https://github.com/hero1796/yt-files/raw/refs/heads/main/WHEELS/sm_120_blackwell/sageattention-2.2.0-cp311-cp311-linux_x86_64.whl
