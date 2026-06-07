@@ -90,7 +90,7 @@ download_model "https://huggingface.co/nhathoangfoto/FLUX.2-klein-ghost-mannequi
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors" "$LORAS_DIR/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors" "$LORAS_DIR/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
 
-download_model "https://huggingface.co/facebook/sam3/resolve/main/sam3.pt" "$SAM3_DIR/sam3.pt"
+download_model "https://huggingface.co/bodhicitta/sam3/resolve/main/sam3.pt" "$SAM3_DIR/sam3.pt"
 
 cd ComfyUI/custom_nodes
 git clone https://github.com/Comfy-Org/ComfyUI-Manager
