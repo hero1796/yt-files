@@ -136,7 +136,6 @@ uv pip install -r custom_nodes/ComfyUI-WanVideoWrapper/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-KJNodes/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-VideoHelperSuite/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-SuperNodes/requirements.txt
-uv pip install -r custom_nodes/ComfyUI-segment-anything-2/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-SAM3/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-Impact-Pack/requirements.txt
 uv pip install -r custom_nodes/ComfyUI-Impact-Subpack/requirements.txt
