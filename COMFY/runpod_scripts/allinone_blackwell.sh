@@ -41,7 +41,7 @@ download_model() {
     echo "📥 Downloading $destination_file to $destination_dir..."
 
     # Download without falloc (since it's not supported in your environment)
-    aria2c -x 16 -s 16 -k 1M --continue=true -d "$destination_dir" -o "$destination_file" "$url" &
+    aria2c -x 16 -s 16 -k 1M --continue=true --header="Authorization: Bearer $HF_TOKEN" -d "$destination_dir" -o "$destination_file" "$url" &
 
     echo "Download started in background for $destination_file"
 }
