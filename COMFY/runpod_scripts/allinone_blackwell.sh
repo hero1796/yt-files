@@ -53,6 +53,7 @@ CLIP_VISION_DIR="/root/ComfyUI/models/clip_vision"
 VAE_DIR="/root/ComfyUI/models/vae"
 LORAS_DIR="/root/ComfyUI/models/loras"
 DETECTION_DIR="/root/ComfyUI/models/detection"
+SAM3_DIR="/root/ComfyUI/models/sam3"
 
 # Diffusion models
 download_model "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V2/resolve/main/Flux2-Klein-9B-True-v2-bf16.safetensors" "$DIFFUSION_MODELS_DIR/Flux2-Klein-9B-True-v2-bf16.safetensors"
@@ -88,6 +89,8 @@ download_model "https://huggingface.co/nhathoangfoto/FLUX.2-klein-ghost-mannequi
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors" "$LORAS_DIR/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors" "$LORAS_DIR/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors" "$LORAS_DIR/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
+
+download_model "https://huggingface.co/facebook/sam3/resolve/main/sam3.pt" "$SAM3_DIR/sam3.pt"
 
 cd ComfyUI/custom_nodes
 git clone https://github.com/Comfy-Org/ComfyUI-Manager
