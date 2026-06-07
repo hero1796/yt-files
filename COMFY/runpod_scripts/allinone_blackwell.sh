@@ -83,6 +83,7 @@ download_model "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/reso
 # LORAs
 download_model "https://huggingface.co/dx8152/Flux2-Klein-9B-Consistency/resolve/main/Flux2-Klein-9B-consistency-V2.safetensors" "$LORAS_DIR/Flux2-Klein-9B-consistency-V2.safetensors"
 download_model "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/resolve/main/bfs_head_v1_flux-klein_9b_step3500_rank128.safetensors" "$LORAS_DIR/bfs_head_v1_flux-klein_9b_step3500_rank128.safetensors"
+download_model "https://huggingface.co/nhathoangfoto/FLUX.2-klein-ghost-mannequin/resolve/main/3D-GhosMannequinRank-256.safetensors" "$LORAS_DIR/3D-GhosMannequinRank-256.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors" "$LORAS_DIR/WanAnimate_relight_lora_fp16.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors" "$LORAS_DIR/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors"
 # download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Stable-Video-Infinity/v2.0/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors" "$LORAS_DIR/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
