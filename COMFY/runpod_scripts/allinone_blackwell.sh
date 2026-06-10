@@ -65,7 +65,8 @@ download_model "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/reso
 # download_model "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors" "$DIFFUSION_MODELS_DIR/wan2.2_i2v_low_noise_14B_fp16.safetensors"
 
 # Text encoders
-download_model "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors" "$TEXT_ENCODERS_DIR/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+download_model "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-bf16.safetensors" "$TEXT_ENCODERS_DIR/umt5-xxl-enc-bf16.safetensors"
+# download_model "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors" "$TEXT_ENCODERS_DIR/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 # download_model "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors" "$TEXT_ENCODERS_DIR/qwen_3_8b.safetensors"
 
 # VAE models
@@ -117,6 +118,7 @@ git clone https://github.com/cubiq/ComfyUI_essentials
 git clone https://github.com/PGCRT/CRT-Nodes
 git clone https://github.com/wallish77/wlsh_nodes
 git clone https://github.com/scraed/LanPaint
+git clone https://github.com/GACLove/ComfyUI-VFI
 
 cd /root/ComfyUI
 
@@ -143,6 +145,7 @@ uv pip install -r custom_nodes/ComfyUI-Easy-Use/requirements.txt
 uv pip install -r custom_nodes/was-node-suite-comfyui/requirements.txt
 uv pip install -r custom_nodes/comfyui-crystools/requirements.txt
 uv pip install -r custom_nodes/CRT-Nodes/requirements.txt
+uv pip install -r custom_nodes/ComfyUI-VFI/requirements.txt
 
 uv pip install https://github.com/hero1796/yt-files/raw/refs/heads/main/WHEELS/sm_120_blackwell/sageattention-2.2.0-cp311-cp311-linux_x86_64.whl
 
