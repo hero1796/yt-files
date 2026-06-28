@@ -61,7 +61,7 @@ download_model "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-s
 download_model "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors" "$VAE_DIR/LTX23_audio_vae_bf16.safetensors"
 download_model "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors" "$VAE_DIR/LTX23_video_vae_bf16.safetensors"
 download_model "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/taeltx2_3.safetensors" "$VAE_DIR/taeltx2_3.safetensors"
-download_model "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors" "$TEXT_ENCODERS_DIR/gemma_3_12B_it_fp4_mixed.safetensors"
+download_model "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors" "$TEXT_ENCODERS_DIR/gemma_3_12B_it_fp8_scaled.safetensors"
 download_model "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors" "$TEXT_ENCODERS_DIR/ltx-2.3_text_projection_bf16.safetensors"
 
 
